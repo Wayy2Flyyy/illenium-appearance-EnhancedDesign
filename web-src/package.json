@@ -1,0 +1,14 @@
+{
+  "name": "fivem-appearance",
+  "version": "1.2.2",
+  "repository": "git@github.com:pedr0fontoura/fivem-appearance.git",
+  "author": "snakewiz",
+  "license": "MIT",
+  "scripts": {
+    "build:web": "cd web && npm install && npm run build",
+    "format:web": "cd web && npm install && npm run format",
+    "format": "npm run format:web",
+    "build": "npm run build:web",
+    "release": "npm run build && node release.js"
+  }
+}
