@@ -812,8 +812,8 @@ const ClothingHero = ({
         enabled: true,
       },
       {
-        id: 'torso',
-        title: 'Torso',
+        id: 'jackets',
+        title: 'Jackets',
         type: 'component',
         targetId: 11,
         enabled: isEnabled(componentConfig?.jackets),
@@ -824,6 +824,20 @@ const ClothingHero = ({
         type: 'component',
         targetId: 8,
         enabled: isEnabled(componentConfig?.shirts),
+      },
+      {
+        id: 'vest',
+        title: 'Vest / Armor',
+        type: 'component',
+        targetId: 9,
+        enabled: isEnabled(componentConfig?.bodyArmor),
+      },
+      {
+        id: 'decals',
+        title: 'Decals',
+        type: 'component',
+        targetId: 10,
+        enabled: isEnabled(componentConfig?.decals),
       },
       {
         id: 'hands',
